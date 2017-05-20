@@ -1,0 +1,103 @@
+#left ul and right list
+
+<!doctype html>
+<html lang="en">
+ <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css">
+<!--
+
+#main {
+display: table;
+border-collapse: collapse;
+width: 900px;
+margin:0 auto;
+}
+#nav {
+top:0;
+left:230px;
+position:fixed;
+margin-top:10px;
+vertical-align:top;
+display: table-cell;
+width: 180px;
+background-color: silver;
+}
+#extras {
+display: table-cell;
+width: 180px;
+padding-left: 10px;
+border-right: 1px dotted #d7ad7b;
+}
+#content {
+font-size:16px;
+display: table-cell;
+width: 680px;
+padding-left: 20px;
+} 
+ul{
+
+font-size:20px;
+width:80px;
+line-height:34px;
+
+
+list-style:none;
+
+
+
+}
+li{
+border-bottom:1px dotted;
+
+
+}
+//-->
+
+</style>
+
+</head>
+<body>
+<div id="wrapper">
+<div id="main">
+<div id="nav">
+<ul>
+<li>新闻资讯</li>
+<li>新闻资讯</li>
+<li>新闻资讯</li>
+<li>新闻资讯</li>
+</ul>
+
+
+
+</div>
+
+<div id="content">
+
+
+<img src="images/up.jpg" >
+<p>
+main article contentThis robin has been visiting our garden over the summer.
+He is very friendly and doesn't seem to be too worried about sharing the garden with us.…
+news headlines column content…This robin has been visiting our garden over the summer.
+He is very friendly and doesn't seem to be too worried about sharing the garden with us.
+</p>
+<img src="images/nemo.jpg" >
+<p>
+main article contentThis robin has been visiting our garden over the summer.
+He is very friendly and doesn't seem to be too worried about sharing the garden with us.…
+news headlines column content…This robin has been visiting our garden over the summer.
+He is very friendly and doesn't seem to be too worried about sharing the garden with us.
+</p>
+<img src="images/walle.jpg" >
+<p>
+main article contentThis robin has been visiting our garden over the summer.
+He is very friendly and doesn't seem to be too worried about sharing the garden with us.…
+news headlines column content…This robin has been visiting our garden over the summer.
+He is very friendly and doesn't seem to be too worried about sharing the garden with us.
+</p>
+</div>
+</div>
+</div> 
+</body>
+</html>
