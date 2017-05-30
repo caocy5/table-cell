@@ -1,0 +1,82 @@
+#table-cell-picture with list
+#a table cell witn picture on the left and list on the right
+
+<!doctype html>
+
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title ></title>
+<style type="text/css" >
+<!--
+body{
+margin:0 auto;
+width:900px;
+}
+.container{
+display: table;
+border-spacing: 8px;
+border: 1px solid silver;
+
+}
+.main{
+display:table-row;
+
+
+}
+.tab-l{
+display: table-cell;
+width: 200px;
+background-color: #eee;
+
+vertical-align: middle;
+text-align: center;
+color: #fff;
+}
+.tab-l img{
+border: 2px solid silver;
+box-shadow:3px 3px 5px #eee;
+
+}
+.tab-r{
+margin-left:10px;
+display: table-cell;
+
+color:black;
+font-size:20px;
+width:600px;
+
+
+}
+.cap{
+font-size:30px;
+font-weight:bold;
+text-decoration:none;
+}
+
+-->
+</style>
+<head></head>
+<body>
+
+<div class="container">
+
+
+<div class="main">
+
+<div class="tab-l">
+<img src="images/1.jpg" alt="A Lily" />
+
+</div>
+<div class="tab-r">
+<a class="cap">The Vyne Country House</a><br>
+main article contentThis robin has been visiting our garden over the summer.
+He is very friendly and doesn't seem to be too worried about sharing the garden with us.
+news headlines column content…This robin has been visiting our garden over the summer.
+
+</div>
+</div>
+</div>
+
+
+</body>
+</html>
